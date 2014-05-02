@@ -1,8 +1,3 @@
-/*.account-masthead {
-    background-color: #193333;
+.hero {
+    background-image: url(http://esti.turing.ai:5000/congruent_outline.png);
 }
-
-body, .masthead, .site-footer, .masthead .navigation .nav-pills li a:hover,
-.masthead .navigation .nav-pills li.active a {
-    background-color: #285151;
-}*/
