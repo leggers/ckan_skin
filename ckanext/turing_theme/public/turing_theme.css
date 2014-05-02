@@ -1,7 +1,8 @@
-.account-masthead {
+/*.account-masthead {
     background-color: #193333;
 }
 
-body, .masthead, .site-footer {
+body, .masthead, .site-footer, .masthead .navigation .nav-pills li a:hover,
+.masthead .navigation .nav-pills li.active a {
     background-color: #285151;
-}
+}*/
