@@ -1,3 +1,7 @@
 .account-masthead {
-    background-color: rgb(40, 40, 40);
+    background-color: #193333;
+}
+
+body, .masthead, .site-footer {
+    background-color: #285151;
 }
