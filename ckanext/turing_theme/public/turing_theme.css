@@ -1,3 +1,7 @@
 .hero {
     background-image: url(http://esti.turing.ai:5000/congruent_outline.png);
 }
+
+#questionBox {
+    margin-top: 20px;
+}
