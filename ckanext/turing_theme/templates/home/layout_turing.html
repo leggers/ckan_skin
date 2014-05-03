@@ -21,7 +21,7 @@
     </div>
     <div class='row row2' id='questionBox'>
       <div class='span6 col2'>
-        <form class='form-horizontal' id='questionWrapper'>
+        <form class='form-horizontal' id='questionWrapper' method="get" action="{% url_for controller='package', action='search' %}">
           <div class='control-group control-full control-large'>
             <label class='control-label' for='question'>Ask</label>
             <div class='controls'>
