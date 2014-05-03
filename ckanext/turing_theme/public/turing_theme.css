@@ -1,5 +1,6 @@
 .hero {
-    background-image: url(http://esti.turing.ai:5000/crossword.png);
+    background-image: none;
+    background-color: rgb(204, 204, 204);
 }
 
 #questionBox {
