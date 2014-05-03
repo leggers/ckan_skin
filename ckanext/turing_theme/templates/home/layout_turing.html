@@ -2,19 +2,30 @@
   <div class="container">
     <div class="row row1">
       <div class="span6 col1">
-        {% block promoted %}
+        <!-- {% block promoted %}
           {% snippet 'home/snippets/promoted.html' %}
-        {% endblock %}
+        {% endblock %} -->
+        <h1>Turing.ai's Global Data Exchange</h1>
+        <h2>A One-Stop-Shop to find the data you need and monetize the data you have.</h2>
+        <ul>
+          <li>Looking for data? Search exisiting data and make your offer for validated, high-quality data.</li>
+          <li>Can't find exactly what you need? Request data from our global network.</li>
+          <li>Got data that's collecting dust? List your data with us and monetize.</li>
+          <li></li>
+        </ul>
       </div>
       <div class="span6 col2">
-        {% block search %}
+        <!-- {% block search %}
           {% snippet 'home/snippets/search.html' %}
-        {% endblock %}
+        {% endblock %} -->
       </div>
     </div>
     <div class='row row2' id='questionBox'>
-      <div class='span12 col1'>
-        <form class='box form-horizontal'>
+      <div class='span6 col1'>
+        <a class='btn btn-large btn-primary'>List Your Data</a>
+      </div>
+      <div class='span6 col2'>
+        <form class='form-horizontal'>
           <div class='control-group control-full control-large' id='questionWrapper'>
             <label class='control-label' for='question'>Ask</label>
             <div class='controls'>
