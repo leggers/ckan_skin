@@ -38,12 +38,13 @@
     background-color: transparent;
     border: none;
     color: #999;
-    .transition(color 0.2s ease-in);
-    &:hover {
-      color: #000;
-    }
+    transition(color 0.2s ease-in);
 }
 
-.top-reasons li {
+#homeSearchButton:hover {
+    color: #000;
+}
+
+.topReasons li {
     margin-top: 25px;
 }
