@@ -27,3 +27,18 @@
 .part-two .row {
     margin-top: 50px;
 }
+
+#homeSearchButton {
+    position: absolute;
+    display: block;
+    padding: 0;
+    top: 12px;
+    left: 440px;
+    background-color: transparent;
+    border: none;
+    color: #999;
+    .transition(color 0.2s ease-in);
+    &:hover {
+      color: #000;
+    }
+}
