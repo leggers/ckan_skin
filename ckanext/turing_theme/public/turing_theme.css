@@ -1,6 +1,6 @@
 .hero {
     background-image: none;
-    background-color: rgb(204, 204, 204);
+    background-color: #ccdee3;
 }
 
 #questionBox {
@@ -18,6 +18,6 @@
 }
 
 .part-two {
-    background-image: url(http://esti.turing.ai:5000/startdust.png);
-    color: rgb(204, 204, 204);
+    background-image: url(http://esti.turing.ai:5000/stardust.png);
+    color: #ccdee3;
 }
