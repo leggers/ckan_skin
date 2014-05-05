@@ -10,8 +10,8 @@
 {% endblock %}
 
 {% block header_logo %}
-  {{super()}}
-  <h2>
+  <h1>{{super()}}</h1>
+  <h1 class='turingName'>
     <a href="{{ h.url('home') }}">{{ g.site_title }}</a>
-  </h2>
+  </h1>
 {% endblock %}
